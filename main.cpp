@@ -13,7 +13,7 @@ int main()
 	float massa;
 	vector<float>mass;
 	//float mass[122];
-	ifstream inFile("file.in.txt", ios::in);
+	ifstream inFile("bull.txt", ios::in);
 
 	if (!inFile) {
 		cerr << "failed" << endl;
